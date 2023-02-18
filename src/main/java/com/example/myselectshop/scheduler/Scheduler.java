@@ -1,8 +1,8 @@
 package com.example.myselectshop.scheduler;
 
 import com.example.myselectshop.entity.Product;
-import com.example.myselectshop.naver.dto.ItemDto;
-import com.example.myselectshop.naver.service.NaverApiService;
+import com.example.myselectshop.naver.ItemDto;
+import com.example.myselectshop.naver.NaverApiService;
 import com.example.myselectshop.repository.ProductRepository;
 import com.example.myselectshop.service.ProductService;
 import lombok.RequiredArgsConstructor;

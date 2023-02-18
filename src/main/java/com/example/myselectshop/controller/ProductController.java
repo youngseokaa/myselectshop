@@ -4,7 +4,6 @@ import com.example.myselectshop.dto.ProductMypriceRequestDto;
 import com.example.myselectshop.dto.ProductRequestDto;
 import com.example.myselectshop.dto.ProductResponseDto;
 import com.example.myselectshop.entity.Product;
-import com.example.myselectshop.entity.UserRoleEnum;
 import com.example.myselectshop.security.UserDetailsImpl;
 import com.example.myselectshop.service.ProductService;
 import lombok.RequiredArgsConstructor;
@@ -21,7 +20,7 @@ public class ProductController {
     private final ProductService productService;
 
     // 관심 상품 등록하기
-//    @Secured(UserRoleEnum.Authority.ADMIN)
+    //@Secured(UserRoleEnum.Authority.ADMIN)
     @PostMapping("/products")
     public ProductResponseDto createProduct(@RequestBody ProductRequestDto requestDto, @AuthenticationPrincipal UserDetailsImpl userDetails) {
         // 응답 보내기

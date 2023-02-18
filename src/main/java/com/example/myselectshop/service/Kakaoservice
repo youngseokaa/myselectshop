@@ -2,10 +2,10 @@ package com.example.myselectshop.service;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.example.myselectshop.dto.KakaoUserInfoDto;
-import com.example.myselectshop.entity.User;
-import com.example.myselectshop.jwt.JwtUtil;
-import com.example.myselectshop.repository.UserRepository;
+import dto.com.example.myselectshop.KakaoUserInfoDto;
+import entity.com.example.myselectshop.User;
+import jwt.com.example.myselectshop.JwtUtil;
+import repository.com.example.myselectshop.UserRepository;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
